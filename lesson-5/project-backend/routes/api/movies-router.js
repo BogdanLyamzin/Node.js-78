@@ -14,12 +14,12 @@ const moviesRouter = express.Router();
 
 moviesRouter.get("/", moviesController.getAll);
 
-moviesRouter.get("/:id", moviesController.getById);
+// moviesRouter.get("/:id", moviesController.getById);
 
-moviesRouter.post("/", movieAddValidate, moviesController.add);
+// moviesRouter.post("/", movieAddValidate, moviesController.add);
 
-moviesRouter.put("/:id", movieAddValidate, moviesController.updateById);
+// moviesRouter.put("/:id", movieAddValidate, moviesController.updateById);
 
-moviesRouter.delete("/:id", moviesController.deleteById);
+// moviesRouter.delete("/:id", moviesController.deleteById);
 
 export default moviesRouter;
